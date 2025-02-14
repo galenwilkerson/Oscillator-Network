@@ -27,3 +27,14 @@ The file `oscillator_network.html` demonstrates a larger network of oscillators 
 - Watch as the network synchronizes in real time.
 
 Feel free to modify the parameters in the HTML code (e.g., time step `dt`, coupling strength) to explore different dynamics.
+
+---
+
+## Phase Cascade Demo
+
+The file `phase_cascade_demo.html` allows you to click on any oscillator to instantly change its phase, creating a “kick” that propagates through the network. By observing how neighbors adjust, you can see the ripple of phase differences move through the system.
+
+### How to Run
+
+- **Live Demo**: [Click here](https://galenwilkerson.github.io/phase_cascade_demo.html) to open the phase-cascade simulation in your browser.
+- **Local**: Clone this repository, open `phase_cascade_demo.html` in your browser, and click on any oscillator to give it a new random phase. Then watch the cascade unfold in real time.
